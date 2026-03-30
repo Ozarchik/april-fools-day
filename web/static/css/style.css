@@ -1,0 +1,49 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f7f6f2;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #1a1a1a;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 20vh 2rem 2rem;
+    gap: 1.5rem;
+}
+
+.title {
+    font-size: 2.8rem;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+    color: #2c2c2c;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 1rem;
+}
+
+.message {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #3a3a3a;
+}
+
+.number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    display: inline-block;
+    line-height: 1;
+}
