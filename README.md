@@ -19,7 +19,7 @@ Open [http://localhost:8081](http://localhost:8081).
 ## Deployment
 
 ```bash
-git clone https://github.com/<your-username>/april-fools-day.git
+git clone https://github.com/Ozarchik/april-fools-day.git
 cd april-fools-day
 docker compose up -d --build
 ```
@@ -39,7 +39,7 @@ Add a virtual host config (e.g. `/etc/apache2/sites-available/april-fools.conf`)
 
 ```apache
 <VirtualHost *:80>
-    ServerName example.com
+    ServerName <your-domain>
 
     ProxyPass        / http://localhost:8081/
     ProxyPassReverse / http://localhost:8081/
